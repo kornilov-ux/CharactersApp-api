@@ -8,18 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		24041E142C4821C900174868 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24041E132C4821C900174868 /* AppDelegate.swift */; };
-		24041E182C4821C900174868 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24041E172C4821C900174868 /* ViewController.swift */; };
+		24041E182C4821C900174868 /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24041E172C4821C900174868 /* CharactersViewController.swift */; };
 		24041E1D2C4821CB00174868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24041E1C2C4821CB00174868 /* Assets.xcassets */; };
 		24041E202C4821CB00174868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24041E1E2C4821CB00174868 /* LaunchScreen.storyboard */; };
+		243BD5882C49327800454F53 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243BD5872C49327800454F53 /* CharacterModel.swift */; };
+		243BD58A2C493B5D00454F53 /* EpisodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243BD5892C493B5D00454F53 /* EpisodeModel.swift */; };
+		243BD58D2C49423500454F53 /* CharacterDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243BD58C2C49423500454F53 /* CharacterDetailsViewController.swift */; };
+		243BD58F2C49455500454F53 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243BD58E2C49455500454F53 /* NetworkManager.swift */; };
+		243BD5912C494B2300454F53 /* IBMPlexSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 243BD5902C494B2300454F53 /* IBMPlexSans-Medium.ttf */; };
+		243BD5952C494B4500454F53 /* IBMPlexSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 243BD5922C494B4500454F53 /* IBMPlexSans-Light.ttf */; };
+		243BD5962C494B4500454F53 /* IBMPlexSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 243BD5932C494B4500454F53 /* IBMPlexSans-Regular.ttf */; };
+		243BD5972C494B4500454F53 /* IBMPlexSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 243BD5942C494B4500454F53 /* IBMPlexSans-SemiBold.ttf */; };
+		243BD59A2C49B92400454F53 /* FiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243BD5992C49B92400454F53 /* FiltersViewController.swift */; };
+		243BD59E2C49D92800454F53 /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243BD59D2C49D92800454F53 /* CharacterTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		24041E102C4821C900174868 /* CharactersApp-api.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CharactersApp-api.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24041E132C4821C900174868 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24041E172C4821C900174868 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24041E172C4821C900174868 /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
 		24041E1C2C4821CB00174868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24041E1F2C4821CB00174868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24041E212C4821CB00174868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		243BD5872C49327800454F53 /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		243BD5892C493B5D00454F53 /* EpisodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeModel.swift; sourceTree = "<group>"; };
+		243BD58C2C49423500454F53 /* CharacterDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsViewController.swift; sourceTree = "<group>"; };
+		243BD58E2C49455500454F53 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		243BD5902C494B2300454F53 /* IBMPlexSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Medium.ttf"; sourceTree = "<group>"; };
+		243BD5922C494B4500454F53 /* IBMPlexSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Light.ttf"; sourceTree = "<group>"; };
+		243BD5932C494B4500454F53 /* IBMPlexSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Regular.ttf"; sourceTree = "<group>"; };
+		243BD5942C494B4500454F53 /* IBMPlexSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		243BD5992C49B92400454F53 /* FiltersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersViewController.swift; sourceTree = "<group>"; };
+		243BD59D2C49D92800454F53 /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +73,38 @@
 			isa = PBXGroup;
 			children = (
 				24041E132C4821C900174868 /* AppDelegate.swift */,
-				24041E172C4821C900174868 /* ViewController.swift */,
+				24041E172C4821C900174868 /* CharactersViewController.swift */,
+				243BD59D2C49D92800454F53 /* CharacterTableViewCell.swift */,
+				243BD5992C49B92400454F53 /* FiltersViewController.swift */,
+				243BD58C2C49423500454F53 /* CharacterDetailsViewController.swift */,
+				243BD58B2C493C4300454F53 /* Model */,
 				24041E1C2C4821CB00174868 /* Assets.xcassets */,
 				24041E1E2C4821CB00174868 /* LaunchScreen.storyboard */,
 				24041E212C4821CB00174868 /* Info.plist */,
+				243BD5982C494C8100454F53 /* Fonts */,
 			);
 			path = "CharactersApp-api";
+			sourceTree = "<group>";
+		};
+		243BD58B2C493C4300454F53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				243BD58E2C49455500454F53 /* NetworkManager.swift */,
+				243BD5872C49327800454F53 /* CharacterModel.swift */,
+				243BD5892C493B5D00454F53 /* EpisodeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		243BD5982C494C8100454F53 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				243BD5942C494B4500454F53 /* IBMPlexSans-SemiBold.ttf */,
+				243BD5932C494B4500454F53 /* IBMPlexSans-Regular.ttf */,
+				243BD5922C494B4500454F53 /* IBMPlexSans-Light.ttf */,
+				243BD5902C494B2300454F53 /* IBMPlexSans-Medium.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +165,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				243BD5952C494B4500454F53 /* IBMPlexSans-Light.ttf in Resources */,
+				243BD5912C494B2300454F53 /* IBMPlexSans-Medium.ttf in Resources */,
+				243BD5962C494B4500454F53 /* IBMPlexSans-Regular.ttf in Resources */,
 				24041E202C4821CB00174868 /* LaunchScreen.storyboard in Resources */,
+				243BD5972C494B4500454F53 /* IBMPlexSans-SemiBold.ttf in Resources */,
 				24041E1D2C4821CB00174868 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,8 +181,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24041E182C4821C900174868 /* ViewController.swift in Sources */,
+				243BD58F2C49455500454F53 /* NetworkManager.swift in Sources */,
+				243BD5882C49327800454F53 /* CharacterModel.swift in Sources */,
+				243BD59A2C49B92400454F53 /* FiltersViewController.swift in Sources */,
+				24041E182C4821C900174868 /* CharactersViewController.swift in Sources */,
+				243BD58D2C49423500454F53 /* CharacterDetailsViewController.swift in Sources */,
 				24041E142C4821C900174868 /* AppDelegate.swift in Sources */,
+				243BD58A2C493B5D00454F53 /* EpisodeModel.swift in Sources */,
+				243BD59E2C49D92800454F53 /* CharacterTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
